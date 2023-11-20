@@ -1,0 +1,40 @@
+package java2;
+import java.util.Scanner;
+public class Primitives {
+
+	public static void main(String[] args) {
+	try (Scanner in = new Scanner(System.in)) {
+		int p=34;
+			System.out.println(in.nextInt(p));
+	}
+//	primitive data types basic.
+	int app=(int)(67.582f);
+		System.out.println(app); 
+		float f=(float) (34);
+		System.out.println(f);
+		double d=2345.45d;
+		System.out.println(d);
+		long e=34678989L;
+		System.out.println(e);
+		short s=1234;
+		System.out.println(s);
+		char letter='r';
+		System.out.println(letter);
+		int r=44;
+		System.out.println(r);
+//		boolean to check whether the condition is true or false;
+		boolean va1,val2 = false;
+	System.out.println("Boolean type in java");
+	va1=true;
+	if(va1) 
+		System.out.println("This is true and it will get displayed!");
+	va1=true;
+	
+	if (val2) {
+		System.out.println("This is false and it won't get displayed");
+		val2=false;
+
+	}
+
+	}
+}

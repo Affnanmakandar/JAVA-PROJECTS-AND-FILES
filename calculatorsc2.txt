@@ -1,0 +1,84 @@
+#include <iostream>
+using namespace std;
+#include <string>
+void form(){
+    string firstname; string lastname; int age; string gender;
+    cout<<"Enter name";
+    cin>>firstname;
+    cout<<"Enter lastname";
+    cin>>lastname;
+    cout<<"enter your age";
+    cin>>age;
+    if(age>=18){
+        cout<<"Elegible";
+    }
+    else{
+        cout<<"Not elegible";
+    }
+    cout<<endl;
+    cout<<"Gender";
+    cin>>gender;
+    
+    
+}
+void calculator(){
+    int a; int b;int c;
+    cout<<"Enter the value of a:";
+    cin>>a;
+    cout<<"Enter the value of b:";
+    cin>>b;
+    cout<<"option:\n 1] +\n 2] -\n 3] *\n 4] /\n";
+    cin>>c;
+    if(c==1){
+        cout<<"a+b:"<<a+b;
+    }
+    else if(c==2){
+        cout<<"a-b"<<a-b;
+    }
+    else if(c==3){
+        cout<<"a*b"<<a*b;
+    }
+    else if(c==4){
+        cout<<"a/b"<<a/b;
+    }
+    else{
+        cout<<"thankyou";
+    }
+}
+int main(){
+    int sony,d;
+    for(d=0;d>=d;d++){
+        cout<<"1. form";
+        cout<<"2. calculator";
+        cout<<"3.exit";
+        cin>>sony;
+        if(sony>0&&sony<3){
+            switch(sony){
+                case 1:
+                form();
+                break;
+                case 2:
+                calculator();
+                break;
+                case 3:
+                cout<<"exit";
+                break;
+            }
+        }else{
+            break;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    return 0;
+}

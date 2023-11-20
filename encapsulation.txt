@@ -1,0 +1,58 @@
+// Online C++ compiler to run C++ program online
+
+#include <iostream>
+
+using namespace std;
+
+#include <string>
+
+class affnan{
+  
+  private:
+   
+ int a;
+    int r;
+
+    public:
+   
+ void rohit(int b,int s){
+
+a=b;
+
+r=s;
+
+
+        
+    }
+    
+
+int sir(){
+   
+ return a;
+}
+ 
+int miss(){
+
+    return r;
+} 
+
+
+    };
+
+
+int main() {
+
+    // Write C++ code here
+    // std::cout << "Hello world!";
+
+affnan obj;
+
+obj.rohit(5,10);
+
+cout<<obj.sir()<<"\n";
+
+cout<<obj.miss();
+
+
+    return 0;
+}

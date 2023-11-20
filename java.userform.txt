@@ -1,0 +1,62 @@
+package affnan;
+import java.util.Scanner;
+
+public class Form {
+
+	
+	public static void main(String[] args) {
+		for (int i=1;i<=10;i++) {
+		for(int j=0;j<=12;j++) {
+	try (Scanner obj = new Scanner(System.in)) {
+		System.out.println("1.Enter your name");
+		String name=obj.next();
+		System.out.println(name);
+		System.out.println("\n");
+		System.out.println("2.Enter your Surname");
+		System.out.println("\n");
+		String aff=obj.next();
+		System.out.println(aff);
+		System.out.println("3.Enter your age");
+		System.out.println("\n");
+int a=obj.nextInt();
+System.out.println(a);
+if(a>=18) {
+System.out.println("Eligible");
+}
+else {
+System.out.println("Not eligible");
+}
+System.out.println("4.Gender");
+String naam=obj.next();
+System.out.println(naam);
+System.out.println("\n");
+System.out.println("5.Qualification only in numbers");
+System.out.println("Example:11-15");
+System.out.println("\n");
+int b=obj.nextInt();
+System.out.println(b);
+if(b>=15) {
+	System.out.println("Elegible for Work");
+}
+else {
+	System.out.println("Not elegible for work Try again later");
+}
+System.out.println("Press 0 for exit");
+int e=obj.nextInt();
+System.out.println(e);
+if(e>=0) {
+	System.out.println("exit");
+}
+else {
+	System.out.println("Thanks");
+}
+
+	
+		
+
+	}
+}
+}
+
+}
+}

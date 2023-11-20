@@ -1,0 +1,35 @@
+package affnan;
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.JFrame;
+  class Loginpageswings extends JFrame{
+Loginpageswings(){
+	setTitle("welcome to login page");
+	setSize(500,500);
+	setLayout(new FlowLayout());
+	setVisible(true);
+	JLabel lbl2=new JLabel ("Username");
+	
+	JTextField txt2=new JTextField(20);
+	
+	JLabel lbl3=new JLabel ("password");
+JPasswordField pass=new JPasswordField(20);
+	JButton lu=new JButton ("submit");
+	
+	
+	add(lbl2);
+	add(txt2);
+	
+	add (lbl3);
+	add(pass);
+	add (lu);
+	
+
+	
+}
+	public static void main(String[] args) {
+new Loginpageswings();
+
+	}
+
+}

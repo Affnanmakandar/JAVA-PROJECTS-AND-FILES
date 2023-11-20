@@ -1,0 +1,60 @@
+#include <string>
+
+using namespace std;
+
+#include <iostream>
+
+
+int main() {
+    
+
+    int a,i,x=0,flag=0;
+    
+cout<<"Enter the number";
+    
+cin>>a;
+   
+ x=a/2;
+    
+for(int i=2;i<=x;i++){
+      
+  if(a%i==0)
+        {
+           
+ cout<<"Number is not a prime"<<endl;
+      
+      flag=1;
+            break;
+     
+   }
+  
+  }
+    if (flag==0)
+    
+cout<<"Number is prime";
+  
+  
+for (int i=1;i<=x;i++){
+   
+ if(a%i==0)
+    {
+        
+ cout<<"Number is a composite"<<endl;
+     
+   flag=1;
+     
+   break;
+        
+    }
+    
+else (flag==0);
+      
+  cout<<"Number is not a composite";
+   
+ 
+    
+}
+    return 0;
+  
+  
+}

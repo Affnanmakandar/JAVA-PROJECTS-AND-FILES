@@ -1,0 +1,15 @@
+package java2;
+import java.util.Scanner;
+public class Temp {
+
+	public static void main(String[] args) {
+		try (Scanner inte = new Scanner(System.in)) {
+			System.out.println("enter temp in celcius");
+			System.out.println("temp in fareheit");
+	int tempf=inte.nextInt();
+int tempd= (tempf - 32)*5/9;
+System.out.println(tempd+"temperature in f");
+		}
+	}  
+
+}

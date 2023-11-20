@@ -1,0 +1,95 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+#include <string>
+
+int main() {
+    // Write C++ code here
+    // std::cout << "Hello world!";
+    for(int i=0;i>=i;i++){
+    int a; string p,q,r; int age;
+    int s,t; int u;
+    // int i ;
+   cout<<"Select an operator in:\n1] form\n 2] calculator\n 3] exit\n";
+   cin>>a;
+   switch(a){
+       for(int i=0;i>=i;i++){
+       cout<<i;
+   }
+       case 1:
+       cout<<"Enter your name";
+       cin>>p;
+       cout<<"Enter your surname";
+       cin>>q;
+       cout<<"GENDER";
+       cin>>r;
+       cout<<"Enter your age";
+       cin>>age;
+       if(age>=18){
+           cout<<"Elegible";
+       }
+       else{
+           cout<<"Not elegible";
+       }
+       cout<<endl;
+       cout<<"Your details";
+       cout<<endl;
+       cout<<"Your name"<<p;
+       cout<<endl;
+       cout<<"Your Surname"<<q;
+       
+       cout<<endl;
+       cout<<"Gender"<<r;
+       cout<<"Age"<<age;
+       cout<<endl;
+       cout<<"Elegibility";
+     
+       break;
+       if(t>0&&t<5){
+       case 2:
+              cout<<"Enter the value of s:";
+       cin>>s;
+       cout<<"Enter the value of t: ";
+       cin>>t;
+       cout<<"option:\n 1] s+t\n 2] s-t\n 3] s*t\n 4]s/t\n 5] s%t\n";
+       cin>>u;
+        if(u==1){
+            cout<<""<<s+t;
+        }
+      else if(u==2){
+          cout<<""<<s-t;
+      }
+      else if(u==3){
+          cout<<""<<s*t;
+      }
+      else if(u==4){
+          cout<<""<<s/t;
+      }
+      else if(u==5){
+          cout<<""<<s%t;
+      }
+      else {
+          cout<<"";
+      }
+       break;
+       case 3:
+       cout<<"exit";
+       break;
+           
+       }
+       else{
+           break;
+       }
+       
+   }
+   
+   
+   
+   
+    
+     
+       
+    
+    return 0;
+}
+}

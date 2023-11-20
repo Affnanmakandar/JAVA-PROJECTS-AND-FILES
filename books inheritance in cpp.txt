@@ -1,0 +1,112 @@
+
+#include <iostream>
+
+using namespace std;
+
+#include <string>
+
+class books{
+  
+public:
+  
+string Title;
+  
+string Author;
+  
+string publication;
+void aff(){
+    cout<<"Title";
+    cin>>Title;
+    cout<<endl;
+    cout<<"Author";
+    cin>>Author;
+    cout<<endl;
+    cout<<"publication";
+    cin>>publication;
+    
+}
+
+
+};
+class textbooks:public books{
+    public:
+  string English;
+  string Hindi;
+  string Maths;
+  void aks(){
+      int a;
+      cout<<"Enter the subjects";
+      cin>>a;
+      cout<<"English";
+      cin>>English;
+       cout<<endl;
+      cout<<"Hindi";
+      cin>>Hindi;
+       cout<<endl;
+      cout<<"Maths";
+      cin>>Maths;
+       cout<<endl;
+  }
+ 
+
+};
+       class booktype:public textbooks{
+         public:
+  
+               string story;
+                  string Historic;
+                  string psychology;
+                     void tony(){
+    cout<<"Select Booktype";
+    
+                      cout<<"story";
+      cin>>story;
+      cout<<endl;
+      cout<<"Historic";
+      cin>>Historic;
+      cout<<endl;
+      cout<<"psychology";
+      cin>>psychology;
+      cout<<endl;
+  }
+};
+class faculty:public booktype{
+  public:
+  string  Teaching ;
+  
+  string  Practical;
+  
+  string   Management;
+  faculty(){
+      cout<<"Select Management";
+      int x;int y; int z;
+      cout<<"Teaching"<<"\n";
+      cin>>x;
+      cout<<"practical"<<"\n";
+      cin>>y;
+      cout<<"Management"<<"\n";
+      cin>>z;
+  }
+  
+  
+  
+};
+
+
+int main() {
+    for(int d=0;d<=d;d++){
+books obj;
+ cout<<"Book details:"<<"\n";
+obj.aff();
+textbooks obj1;
+obj1.aks();
+booktype obj3;
+obj3.tony();
+faculty obj2;
+
+}
+
+
+    return 0;
+
+}

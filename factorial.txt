@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+#include <string>
+int main() {
+    // Write C++ code here
+    // std::cout << "Hello world!";
+ for(int d=0;d<=d;d++){
+    int num,i,f=1;
+    cout<<"Enter the no\n";
+    cin>>num;
+    for(i=num;i>0;i--){
+        f=f*i;
+    }
+    cout<<"factorial of"<<num<<"is:"<<f;
+}
+    return 0;
+}

@@ -1,0 +1,42 @@
+// If else statement in c++
+       
+ #include <iostream>
+            
+using namespace std;
+           
+int main() {
+    
+                   char button;
+           
+ cout<<"Enter the character";
+               
+  cin>>button;
+   
+ if(button=='a'){
+  
+  cout<<"HELLO"<<endl;
+ 
+ }
+  
+else if(button=='b'){
+  
+  cout<<"Namaste"<<endl;
+
+}
+   
+else if(button=='c'){
+  
+  cout<<"Asslamualaikum"<<endl;
+
+}
+   
+else{
+   
+ cout<<"I am still learning more";
+
+}
+
+return 0;
+  
+  
+}

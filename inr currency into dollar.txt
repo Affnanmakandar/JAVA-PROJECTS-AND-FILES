@@ -1,0 +1,21 @@
+package java2;
+import java.util.Scanner;
+public class Currencyintodollar {
+
+	public static void main(String[] args) {
+		float rupees;
+try (Scanner obj = new Scanner	(System.in)) {
+	System.out.println("enter rupees");
+	rupees=obj.nextLong();
+}
+double dollars=rupees/82.9567;
+System.out.println(dollars +" dollars");
+ 
+
+
+
+	}
+}
+
+
+ 

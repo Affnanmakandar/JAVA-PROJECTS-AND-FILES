@@ -1,0 +1,19 @@
+package java2;
+import java.util.Scanner;
+public class Casecheck {
+
+	public static void main(String[] args) {
+		try (// TODO Auto-generated method stub
+Scanner in = new Scanner(System.in)) {
+	char ch=in.next().trim().charAt(0);
+	// in case of finding out the upper case and lower case we will use if else stmt;
+	if(ch>='a'&&ch<='z') {
+		System.out.println("lower case");
+	}
+	else {
+		System.out.println("uppercase");
+	}
+}
+	}
+
+}

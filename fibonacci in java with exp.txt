@@ -1,0 +1,31 @@
+  package java2;
+import java.util.Scanner;
+public class Fibonnacino {
+
+	public static void main(String[] args) {
+		try (// TODO Auto-generated method stub
+Scanner in = new Scanner(System.in)) {
+	int n=in.nextInt();
+	int  a= 0;
+	int b=1;
+	//we have two nos 0 and 1 so we can say count =2;
+//	we will go to next number ie 0+1=1 so 0,1,1 so 1+1=2 so count=2 so it will make
+//	0,1,1,2
+//	we will use 'n' for (next);
+	int count =2;
+	while (count<=n) {
+		int temp=b;
+		b=b+a;
+//		b is 1 and a is 0 so 1=1+0 so it will give us 1 and it will increase automatically
+//		by using count ++
+	//	 why temp : in case if we take b  rather than temp it will not update the value;
+		a=temp; 
+	//	a will become b so b is temporaray value;
+		count++;
+	} 
+	System.out.println(b);
+//	at last we will print b as an input
+}
+	}
+
+}

@@ -1,0 +1,25 @@
+// for loop
+
+#include <iostream>
+
+using namespace std;
+
+#include <string>
+
+
+int main() {
+   
+ // Write C++ code here
+    // std::cout << "Hello world!";
+
+for (int a=1;a<=10;a++)
+{
+  
+  cout<<endl;
+    cout<<a;
+
+}
+
+    return 0;
+
+}

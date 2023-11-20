@@ -1,0 +1,28 @@
+// polymorphism ;
+#include <iostream>
+using namespace std;
+#include <string>
+class affnan{
+    public:
+    void car(){
+        cout<<"bmw";
+    }
+};
+class  mac :public affnan{
+    public:
+    void car(){
+        cout<<"mercedes";
+    }
+};
+int main() {
+    // Write C++ code here
+    // std::cout << "Hello world!";
+    affnan obj;
+    obj.car();
+    cout<<endl;
+    mac obj1;
+    obj1.car();
+
+   
+    return 0;
+}

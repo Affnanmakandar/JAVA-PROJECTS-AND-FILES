@@ -1,0 +1,9 @@
+oops 3 pillars
+1) inheritance:
+ types of inheritance
+1) single inheritance  one parent one child 2) multiple inheritance parent one parent two child one
+ 3) multi level inheritance grandfather, father ,child
+4) hierarchy key ex mom and dad 5) Hybrid inheritance
+2) polymorphism
+poly :single  morphism one man different roles
+3)encapsulation: it is a way to restrict direct access to some data;

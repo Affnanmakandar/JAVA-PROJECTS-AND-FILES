@@ -1,0 +1,20 @@
+package java2;
+
+public class Whileloop {
+
+	public static void main(String[] args) {
+//	Syntax: while(condition){
+//		body ex System.out.println();
+//		increment
+//		}
+		int num=1;
+		while (num<=5) {
+			System.out.println(num);
+			num+=1 ;
+//			int num=1; is the increment of num+=1;
+			
+		}
+
+	}
+
+}

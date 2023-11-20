@@ -1,0 +1,29 @@
+// do while
+
+#include <iostream>
+
+#include <string>
+
+using namespace std;
+
+int main() {
+   
+ // Write C++ code here
+    // std::cout << "Hello world!";
+ 
+   int a=20;
+    
+do{
+        cout<<a;
+        cout<<endl;
+        a++;
+   
+ }
+   
+ while(a<=100);
+    cout<<endl;
+    return 0;
+
+    return 0;
+
+}
